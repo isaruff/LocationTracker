@@ -103,7 +103,7 @@ class LocationTrackerService : Service() {
                         append("Searching location...")
                     }
                 })
-                .setOngoing(false)
+                .setOngoing(true)
                 .setPriority(NotificationCompat.PRIORITY_MAX)
 
         return notificationBuilder.build()
